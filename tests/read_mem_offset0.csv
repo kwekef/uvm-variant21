@@ -1,0 +1,12 @@
+# MEM[250] = 99
+LOAD_CONST,0,99
+WRITE_MEM,0,250
+
+# R1 = 250
+LOAD_CONST,1,250
+
+# R2 = MEM[R1 + 0] = 99
+READ_MEM,1,2,0
+
+# store for dump
+WRITE_MEM,2,260

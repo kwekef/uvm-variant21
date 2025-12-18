@@ -1,0 +1,19 @@
+# MEM[600] = 2
+LOAD_CONST,0,2
+WRITE_MEM,0,600
+
+# MEM[700] = 3
+LOAD_CONST,0,3
+WRITE_MEM,0,700
+
+# R10 = 600  (E)
+LOAD_CONST,10,600
+
+# R11 = 700  (B)
+LOAD_CONST,11,700
+
+# R12 = pow( MEM[R10 + 0], MEM[R11] ) = pow(2,3) = 8
+POW,11,12,0,10
+
+# зафиксируем в память для дампа
+WRITE_MEM,12,800

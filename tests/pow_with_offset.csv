@@ -1,0 +1,16 @@
+# base array at 610, take element at +5
+LOAD_CONST,10,610
+
+# MEM[615] = 4 (base)
+LOAD_CONST,0,4
+WRITE_MEM,0,615
+
+# exponent stored by address in R11
+# MEM[701] = 2
+LOAD_CONST,0,2
+WRITE_MEM,0,701
+LOAD_CONST,11,701
+
+# R12 = pow( MEM[610+5], MEM[701] ) = 4^2 = 16
+POW,11,12,5,10
+WRITE_MEM,12,810
