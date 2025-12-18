@@ -85,7 +85,9 @@ make run-tests
 # Примеры использования
 
 Веб-интерфейс — главная страница
-<img width="1790" height="1122" alt="image" src="https://github.com/user-attachments/assets/d4fdc118-5eff-4cb9-b007-b9cd7b3fd4d3" />
+<img width="1244" height="907" alt="image" src="https://github.com/user-attachments/assets/c2b85c32-bd22-4a7a-946d-34e7dc0a7004" />
+
 
 GUI — окно исполнения
-<img width="1249" height="911" alt="image" src="https://github.com/user-attachments/assets/410c490d-bd98-4a92-a53f-595a22e03ba1" />
+<img width="1604" height="970" alt="image" src="https://github.com/user-attachments/assets/6152b153-9ad3-4ec1-8c76-994220affc86" />
+
